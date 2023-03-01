@@ -15,5 +15,5 @@ for (let i = 0; i < tentatives; i++) {
 }
 
 if (essai != nombreAleatoire) {
-    alert("Désolé, vous n'avez pas réussi à deviner le nombre. Le nombre était " + nombreAleatoire);
+    alert("vous n'avez pas reussi " + nombreAleatoire);
 }

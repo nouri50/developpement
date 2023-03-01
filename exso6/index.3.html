@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nombre aléatoire</title>
+</head>
+<body>
+    <h1>Devinez le nombre</h1>
+    <p>Choisissez un niveau de difficulté:</p>
+    <button id="easy">Facile</button>
+    <button id="medium">Moyen</button>
+    <button id="hard">Difficile</button>
+
+    <div id="game" style="display: none;">
+        <p>Entrez votre supposition:</p>
+        <input type="text" id="guess">
+        <button id="submit">Soumettre</button>
+
+        <p id="message"></p>
+    </div>
+
+    <script>
+        let randomNumber = Math.floor(Math.random() * 100) + 1;
+        let attempts;
+
+        document.getElementById("easy").onclick = function() {
+            attempts = 15;
+            document.getElementById("game").style.display = "block";
+        }
+
+        document.getElementById("medium").onclick = function() {
+            attempts = 10;
+            document.getElementById("game").style.display = "block";
+        }
+
+        document.getElementById("hard").onclick = function() {
+            attempts = 5;
+            document.getElementById("game").style.display = "block";
+        }
+
+        document.getElementById("submit").onclick = function() {
+            let guess = document.getElementById("guess").value;
+            if (guess == randomNumber) {
+                document.getElementById("message").textContent =
+                    "Félicitations! Vous avez deviné le nombre en " + (11 - attempts) + " tentatives.";
+                attempts = 0;
+            } else if (guess <

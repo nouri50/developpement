@@ -2,7 +2,9 @@ let tarifbleu
 let tariforange
 let trifrouge
  
-
+function name {
+    
+}
 let age = document.getElementById ("age") value; 
 let permis
 let accident

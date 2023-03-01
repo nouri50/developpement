@@ -1,0 +1,11 @@
+let tarifbleu
+let tariforange
+let trifrouge
+ 
+
+let age 
+let permis
+let accident
+
+ if (tarifbleu age>25 && permis >2 accident=0)
+ console.log ("tarifbleu")

@@ -3,7 +3,7 @@ let tariforange
 let trifrouge
  
 
-let age = document.getElementById ("age") value 
+let age = document.getElementById ("age") value; 
 let permis
 let accident
 

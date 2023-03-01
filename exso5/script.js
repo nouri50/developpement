@@ -3,9 +3,9 @@ let tariforange
 let trifrouge
  
 
-let age 
+let age=document.EL
 let permis
 let accident
 
- if (tarifbleu age>25 && permis >2 accident=0)
+ if (tarifbleu )age>25 && permis >2; accident=0;
  console.log ("tarifbleu")

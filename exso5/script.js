@@ -5,7 +5,7 @@ let trifrouge
 function name {
     
 }
-let age = document.getElementById ("age") value; 
+let age = document.getElementById ("age") value, 
 let permis
 let accident
 

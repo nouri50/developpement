@@ -1,0 +1,22 @@
+tab = [8,2,9,4,1]
+
+TRI_INSERTION(tab)
+
+N = taille de tab = 5
+
+Pour
+-POUR i de 1 à N-1 = 4
+	x = T[i] = T[1] = 2
+	j = i = 1
+
+	TANT QUE (j>0 ET T[j-1]>x) -> (1>0 ET T[0]>2) 
+			T[j=1] = T[j-1=0]
+			j = j - 1 = 0
+
+
+T[j=0] = x = 2 
+
+
+
+
+

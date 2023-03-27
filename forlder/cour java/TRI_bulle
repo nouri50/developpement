@@ -1,0 +1,62 @@
+       0 1 2 3 4
+    T=[8 2 9 4 1]
+
+TRI_BULLES(T)
+
+N<- 5
+
+POUR i variant de 5-1=4 à 1 faire
+
+-POUR i = 4
+	pour j variant de 0 à i-1 = 4-1 = 3 faire
+
+	-POUR j=0
+		SI T[j=0]>T[j+1=1] alors
+		echanger T[0] et T[1]
+
+	-POUR j=1
+		SI T[j=1]>T[j+1=2] alors
+		
+	-POUR j=2
+		SI T[j=2]>T[j+1=3] alors
+		echanger T[2] et T[3]
+
+	-POUR j=3
+		SI T[j=3]>T[j+1=4] alors
+		echanger T[3] et T[4]
+
+
+-POUR i = 3
+	pour j variant de 0 à i-1 = 3-1 = 2 faire
+
+	-POUR j=0
+		SI T[j=0]>T[j+1=1] alors
+		
+
+	-POUR j=1
+		SI T[j=1]>T[j+1=2] alors
+		echanger T[1] et T[2]
+
+	-POUR j=2
+		SI T[j=2]>T[j+1=3] alors
+		echanger T[2] et T[3]
+
+
+
+-POUR i = 2
+	pour j variant de 0 à i-1 = 1-1 = 1 faire
+
+	-POUR j=0
+		SI T[j=0]>T[j+1=1] alors
+		
+	-POUR j=1
+		SI T[j=1]>T[j+1=2] alors
+		echanger T[1] et T[2]
+
+
+-POUR i = 1
+	pour j variant de 0 à i-1 = 1-1 = 0 faire
+
+	-POUR j=0
+		SI T[j=0]>T[j+1=1] alors
+		echanger T[0] et T[1]
